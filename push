@@ -1,0 +1,10 @@
+git add . -->
+
+git status
+
+git commit -m "ok"
+
+git branch
+
+git push origin main
+

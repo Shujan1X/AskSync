@@ -1,0 +1,80 @@
+body{
+    background: rgb(242,11,175);
+    background: linear-gradient(90deg, rgb(61, 11, 242) 0%, rgba(240,25,55,1) 46%, rgba(254,255,0,1) 100%);
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cadetblue;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#employeeForm{
+    height: 400px;
+    width: 550px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
+    justify-content: center;  
+    align-items: center; 
+    
+}
+
+#employeeFormImage
+{
+ margin-left: 120px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    
+}
+form{
+    max-width: 250px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+button {
+    background-color: rgb(226, 14, 113);
+    color: white;
+    padding: 10px 15px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+     
+    
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1.5px solid #cbc;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: transparent;
+    border: 1px solid rgb(226, 14, 113);
+    color: black;
+    transition-duration: 0.8s;
+}
