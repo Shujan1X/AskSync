@@ -3,7 +3,8 @@
   top: 0;
   left: 0;
   width: 2507px;
-  height: 1150px;
+  height: 90%;
+  /* height: 950px; */
   object-fit: cover;
 }
 .group-child,
@@ -46,7 +47,7 @@
 }
 .group-inner {
   cursor: pointer;
-  border: 0.1px solid var(--color-gray-100);
+  border: none;
   padding: 0;
   background-color: #a679ff;
   position: absolute;
@@ -228,7 +229,7 @@
   left: 0;
   border-radius: var(--br-5xs);
   background-color: var(--color-lavender);
-  border: 0.1px solid var(--color-gray-100);
+  border: none;
   box-sizing: border-box;
   width: 342px;
   height: 46.41px;
@@ -263,7 +264,7 @@
   left: 0;
   border-radius: var(--br-5xs);
   background-color: var(--color-lavender);
-  border: 0.1px solid var(--color-gray-100);
+  border: none;
   box-sizing: border-box;
 }
 .login-using-meta {
@@ -325,7 +326,7 @@
 }
 .png-image-1 {
   position: absolute;
-  top: 58.4px;
+  top: 79.4px;
   left: 12.4px;
   width: 398.2px;
   height: 398.2px;
